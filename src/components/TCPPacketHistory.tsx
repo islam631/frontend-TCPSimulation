@@ -40,7 +40,7 @@ const TCPPacketHistory: React.FC<TCPPacketHistoryProps> = ({ packets }) => {
   // Format timestamp to user-friendly time
   const formatTime = (timestamp: number) => {
     const date = new Date(timestamp);
-    return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', fractionalSecondDigits: 3 });
+    return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
   };
 
   return (

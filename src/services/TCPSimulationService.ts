@@ -54,8 +54,8 @@ export class TCPSimulationService {
   }
 
   private addPacket(type: PacketType, from: 'client' | 'server', to: 'client' | 'server', data?: string): Packet {
-    let sequence = from === 'client' ? this.connection.clientSequence : this.connection.serverSequence;
-    let acknowledgment = from === 'client' ? this.connection.lastClientAck : this.connection.lastServerAck;
+    const sequence = from === 'client' ? this.connection.clientSequence : this.connection.serverSequence;
+    const acknowledgment = from === 'client' ? this.connection.lastClientAck : this.connection.lastServerAck;
 
     const packet: Packet = {
       id: `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,

@@ -23,6 +23,15 @@ const Index: React.FC = () => {
             Ce simulateur vous permet de comprendre le fonctionnement du protocole TCP en visualisant
             ses différentes phases et états. Utilisez les contrôles pour interagir avec la simulation.
           </p>
+          <p className="mt-4">
+            Réalisé par : <strong>Islam Tebaibia</strong> & <strong>Ziad Soulaha Mohamed</strong>
+          </p>
+          <p className="mt-4">
+            Master 1 :<strong> Ingénierie des Réseaux et des Systèmes</strong> 
+          </p>
+          <p className="mt-4">
+            Université  <strong> de Versailles Saint-quentin-en-yvelines</strong>
+          </p>
         </div>
       </div>
     </div>
