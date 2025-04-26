@@ -24,7 +24,7 @@ const Index: React.FC = () => {
             ses différentes phases et états. Utilisez les contrôles pour interagir avec la simulation.
           </p>
           <p className="mt-4">
-            Réalisé par : <strong>Islam Tebaibia</strong> & <strong>Ziad Soulaha Mohamed</strong>
+            Réalisé par : <strong>Islam TEBAIBIA</strong> & <strong>Ziad SOUALAH MOHAMMED</strong>
           </p>
           <p className="mt-4">
             Master 1 :<strong> Ingénierie des Réseaux et des Systèmes</strong> 
