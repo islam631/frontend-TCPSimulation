@@ -27,10 +27,10 @@ const Index: React.FC = () => {
             Réalisé par : <strong>Islam TEBAIBIA</strong> & <strong>Ziad SOUALAH MOHAMMED</strong>
           </p>
           <p className="mt-4">
-            Master 1 :<strong> Ingénierie des Réseaux et des Systèmes</strong> 
+            <strong>Master 1 Ingénierie des Réseaux et des Systèmes</strong> 
           </p>
           <p className="mt-4">
-            Université  <strong> de Versailles Saint-quentin-en-yvelines</strong>
+            <strong>Université de Versailles Saint-quentin-en-yvelines</strong>
           </p>
         </div>
       </div>

@@ -29,12 +29,8 @@ const TCPPacketHistory: React.FC<TCPPacketHistoryProps> = ({ packets }) => {
   };
 
   // Helper for direction icon
-  const DirectionIcon = ({ from, to }: { from: string; to: string }) => {
-    if (from === 'client' && to === 'server') {
-      return <ArrowRight className="h-4 w-4 text-gray-500" />;
-    } else {
-      return <ArrowLeft className="h-4 w-4 text-gray-500" />;
-    }
+  const DirectionIcon = () => {
+    return <ArrowRight className="h-4 w-4 text-gray-500" />;
   };
 
   // Format timestamp to user-friendly time
@@ -76,7 +72,7 @@ const TCPPacketHistory: React.FC<TCPPacketHistoryProps> = ({ packets }) => {
                     <span className="text-xs font-medium">
                       {packet.from === 'client' ? 'Client' : 'Server'}
                     </span>
-                    <DirectionIcon from={packet.from} to={packet.to} />
+                    <DirectionIcon/>
                     <span className="text-xs font-medium">
                       {packet.to === 'client' ? 'Client' : 'Server'}
                     </span>
